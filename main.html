@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html><title>Home :: the {o.nest}</title>
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="src/favicon.ico">
+</head>
+
+<style media="all" type="text/css">
+
+body {overflow-x:hidden;}
+
+    #menu {
+    position: fixed;
+    top:0;
+    right:0;
+    height:100%;
+    width:165px;
+    border: 0;
+	}
+
+#window{
+    position: absolute;
+    top:0;
+    left:0;
+    border:0;
+    height:100%;
+    width:calc(100% - 165px);
+    border-left: 1px solid gray;
+    padding-right:165px;
+}
+
+</style>
+<body>
+
+<iframe id="window" name="window" src="main_window.html"></iframe>
+<iframe id="menu" name="menu" src="main_menu.html"></iframe>
+
+</body>
+</html>
